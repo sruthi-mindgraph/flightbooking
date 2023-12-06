@@ -1,6 +1,6 @@
 import java.sql.PreparedStatement
 class FlightTickets extends App{
-  var name: String = "Flight Tickets"
+  var name: String = "Flight Ticketssssssssss"
   var mailid: String = "abc@gmail.com"
   var mobile: String = "Coimbatore"
 
