@@ -1,4 +1,4 @@
-import java.sql.PreparedStatement
+
 class FlightTickets extends App{
   var name: String = "Flight Ticketssssssssss"
   var mailid: String = "abc@gmail.com"
@@ -81,18 +81,18 @@ class Tickets(var flightChoice: String = "Basic", var seat: FlightTickets = new 
     if (choice == 1) {
       println(
         """Thank you,
-          |For Food Enter 1
-          |For Beverage Enter 2
-          |For both Food and Beverage Enter 3
+          |For Food Enter 11
+          |For Beverage Enter 22
+          |For both Food and Beverage Enter 33
           |""".stripMargin)
       val choice: Int = scala.io.StdIn.readInt()
-      if (choice == 1) {
+      if (choice == 11) {
         println("The food during your journey will be provided")
       }
-      if (choice == 2) {
+      if (choice == 22) {
         println("The beverages during your journey will be provided")
       }
-      if (choice == 3) {
+      if (choice == 33) {
         println("The food and beverages during your journey will be provided")
       }
       println("Thank you for Choosing our service")
@@ -263,6 +263,7 @@ object Sample {
         println("Thank you and please visit again")
         System.exit(0)
       }
+
       c.Initial()
       c.datesavail()
       c.getBeverages()
