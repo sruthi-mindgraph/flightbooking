@@ -1,6 +1,6 @@
 
 class FlightTickets extends App{
-  var name: String = "Flight Ticketssssssssss"
+  var name: String = "Flight Ticketss"
   var mailid: String = "abc@gmail.com"
   var mobile: String = "Chennaiii"
 
