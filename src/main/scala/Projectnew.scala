@@ -2,7 +2,7 @@
 class FlightTickets extends App{
   var name: String = "Flight Ticketssssssssss"
   var mailid: String = "abc@gmail.com"
-  var mobile: String = "Chennai"
+  var mobile: String = "Chennaiii"
 
   def flight(): Unit = { //method of the function
     println("Expecting a safe journey")
